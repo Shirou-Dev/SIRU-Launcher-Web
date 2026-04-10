@@ -30,8 +30,19 @@
     </nav>
 
     <main class="max-w-6xl mx-auto px-4 pt-24 pb-16 text-center">
-        <div class="inline-block mb-4 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold tracking-widest uppercase">
-            🚀 Launcher Multi-Game Client
+        <div class="flex items-center justify-center gap-3 mb-4">
+            <div class="px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold tracking-widest uppercase shadow-[0_0_15px_rgba(59,130,246,0.1)]">
+                🚀 Launcher Multi-Game Client
+            </div>
+            <div id="webOnlineBadge" class="hidden items-center gap-1.5 bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-1 rounded-full backdrop-blur-sm transition-all duration-300 shadow-[0_0_15px_rgba(16,185,129,0.1)]">
+                <span class="relative flex h-2 w-2">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                </span>
+                <span id="webOnlineCounter" class="text-[10px] font-black text-emerald-400 uppercase tracking-widest drop-shadow-[0_0_5px_rgba(16,185,129,0.5)]">
+                    0 Active
+                </span>
+            </div>
         </div>
         <h1 class="text-5xl md:text-7xl font-black mb-6 tracking-tight">
             ลดความยุ่งยาก<br>
@@ -183,6 +194,45 @@
         // เรียกใช้งานพร้อมกับฟังก์ชันเดิม
         fetchGitHubRelease();
         fetchChangelog();
+        <script type="module">
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+            import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js";
+    
+            // ข้อมูลชุดเดียวกับฝั่ง Launcher เลยครับ
+            const firebaseConfig = {
+                apiKey: "AIzaSyDe2w0tM2r0LtcDXki-5E0FThE63-Dubv4",
+                databaseURL: "https://siru-launcher-presence-default-rtdb.asia-southeast1.firebasedatabase.app",
+                authDomain: "siru-launcher-presence.firebaseapp.com",
+                projectId: "siru-launcher-presence",
+                storageBucket: "siru-launcher-presence.firebasestorage.app",
+                messagingSenderId: "590992363929",
+                appId: "1:590992363929:web:c5636f0010a97576e14308"
+            };
+    
+            const app = initializeApp(firebaseConfig);
+            const db = getDatabase(app);
+    
+            // ดึงเฉพาะจำนวนคนมาโชว์ (ไม่เขียนข้อมูลลงไป)
+            const allPresenceRef = ref(db, "presence");
+            
+            onValue(allPresenceRef, (snap) => {
+                const onlineCount = snap.exists() ? Object.keys(snap.val()).length : 0;
+                const badge = document.getElementById('webOnlineBadge');
+                const counterText = document.getElementById('webOnlineCounter');
+                
+                if (badge && counterText) {
+                    counterText.innerText = `${onlineCount} Active`;
+                    
+                    // ถ้ามีคนใช้ ให้โชว์ป้าย (เปลี่ยนจาก hidden เป็น flex)
+                    if (onlineCount > 0) {
+                        badge.classList.remove('hidden');
+                        badge.classList.add('flex');
+                    } else {
+                        badge.classList.add('hidden');
+                        badge.classList.remove('flex');
+                    }
+                }
+            });
     </script>
 </body>
 </html>
