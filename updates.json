@@ -1,14 +1,24 @@
 [
   {
+    "version": "1.1.2",
+    "date": "2026-04-10",
+    "title": "Fix & Optimize System",
+    "highlights": [
+      "ปรับปรุง ระบบเปลี่ยนชื่อผู้เล่น ให้เสถียรขึ้น",
+      "ปรับปรุง โค้คภายในให้รันเสถียร์ขึ้น เเก้บัคต่างๆ",
+      "ปรับปรุง การกินเเรม เเละ CPU ให้เหมาะสม"
+    ],
+    "type": "major"
+  },
+  {
     "version": "1.1.1",
     "date": "2026-04-10",
-    "title": "Add New-System",
     "highlights": [
       "Cache Cleaner System ล้างไฟล์เเคสใน FiveM/RedM ในปุ่มเดียว",
       "ระบบเปลี่ยนชื่อผู้เล่น ลิงค์เข้า FiveM/RedM",
       "Fix-UI ให้แสดงผล Pure Level ตามจริง"
     ],
-    "type": "major"
+    "type": "patch"
   },
   {
     "version": "1.0.8",
