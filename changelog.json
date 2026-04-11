@@ -2,18 +2,20 @@
    {
     "version": "2.0.2",
     "date": "2026-04-11",
+    "time": "23:17",
     "title": "Fixing",
     "highlights": [
-      "[เเก้ไข]  ระบบ GameBuild/PureMode ให้กลับมาใข้ได้ตามปกติ"
+      "[เเก้ไข] ระบบ GameBuild/PureMode ให้กลับมาใข้ได้ตามปกติ"
     ],
     "type": "hotfix"
   },
   {
     "version": "2.0.1",
     "date": "2026-04-11",
+    "time": "21:00",
     "title": "Fixing",
     "highlights": [
-      "[เเก้ไข]  ระบบเเสดงผลชื่อเเอป ให้ถูกต้อง"
+      "[เเก้ไข] ระบบเเสดงผลชื่อเเอป ให้ถูกต้อง"
     ],
     "type": "hotfix"
   },
