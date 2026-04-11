@@ -217,7 +217,10 @@
                                     ${item.type === 'major' ? '<span class="px-2 py-0.5 rounded text-[9px] font-bold bg-purple-500/10 text-purple-400 border border-purple-500/20 uppercase tracking-widest">MAJOR</span>' : ''}
                                     ${item.type === 'patch' ? '<span class="px-2 py-0.5 rounded text-[9px] font-bold bg-green-500/10 text-green-400 border border-green-500/20 uppercase tracking-widest">PATCH</span>' : ''}
                                 </div>
-                                <span class="text-[11px] text-gray-500 font-mono tracking-tighter uppercase bg-gray-800/50 px-2 py-1 rounded leading-none">${item.date}</span>
+                                <div class="flex items-center gap-1.5 text-[11px] text-gray-500 font-mono tracking-tighter uppercase bg-gray-800/50 px-2 py-1.5 rounded leading-none">
+                                    <svg class="w-3 h-3 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                    <span>${item.date}${item.time ? ' &bull; ' + item.time : ''}</span>
+                                </div>
                             </div>
                             
                             <ul class="space-y-2.5">
