@@ -1,4 +1,13 @@
 [
+   {
+    "version": "2.0.2",
+    "date": "2026-04-11",
+    "title": "Fixing",
+    "highlights": [
+      "[เเก้ไข] ระบบ GameBuild/PureMode ให้กลับมาใข้ได้ตามปกติ"
+    ],
+    "type": "major"
+  },
   {
     "version": "2.0.1",
     "date": "2026-04-11",
@@ -6,7 +15,7 @@
     "highlights": [
       "เเก้ไขเรื่อง เเสดงผลชื่อเเอป"
     ],
-    "type": "major"
+    "type": "patch"
   },
   {
     "version": "2.0.0",
