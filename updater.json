@@ -1,11 +1,11 @@
 {
-  "version": "2.0.0",
-  "notes": "อัปเดตระบบใหม่ Tauri + Rust เร็วขึ้น เบาขึ้น!!",
-  "pub_date": "2026-04-11T20:00:00Z",
+  "version": "2.0.1",
+  "notes": "เเก้ไขเรื่อง เเสดงผลชื่อเเอป",
+  "pub_date": "2026-04-11T20:40:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaXh5dDVaL0Y5RkFRQ1VOdEVYRWg3UlVCZjZ0T1lYdFVRY2tKYUtwZmRVeGEvTDdwb1lVdXZaTlZ2bEErMGhwb09WeEFkdnRjN3duVjZjUWZsMHNJTmJYR09aazdzYkFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTEzNTg2CWZpbGU6c2lydS1tdWx0aS1sYXVuY2hlci12Ml8yLjAuMF94NjRfZW4tVVMubXNpClp6SVRiOThPVmVKTW5VQ2pyQmgxTkM3bnZveDBLbTFPZ0ZuRDZ3VlhwZGdQWlBDNVFrRTFnTFlSM0dyNEJpdThVMEhxZHV5WUNGcWR3SXZyM0dOc0FRPT0K",
-      "url": "https://github.com/Shirou-Dev/SIRU-Multi-Launcher/releases/download/v1.1.2/siru-multi-launcher-v2_2.0.0_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaXh5dDVaL0Y5RklNMHhWb3UwZmxuL2t6aWtMNFNwdkVXRkxFZmIraG1uSy9KR1FqTUhacVhUWDBzTWdhZk1SWjAwVU5WNzl3ZjlWa0o3QlZVbk83TmNHeXJ1RnRhSmdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTE0NTUwCWZpbGU6U0lSVS1NdWx0aS1MYXVuY2hlcl8yLjAuMV94NjRfZW4tVVMubXNpCjROa1RxRUZnSlNJUHU2OXE2TW9VVmxGRkVTalFpR0c3SkdSd2U0UStJTi80b3A1bHR4UitRR25KMHg0V2Y4MUdKVjZicFZ6QlhLN0tBZXh1SWJxZkRBPT0K",
+      "url": "https://github.com/Shirou-Dev/SIRU-Multi-Launcher/releases/download/v2.0.1/SIRU-Multi-Launcher_2.0.1_x64_en-US.msi"
     }
   }
 }
