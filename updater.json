@@ -1,11 +1,11 @@
 {
   "version": "2.0.1",
   "notes": "เเก้ไขเรื่อง เเสดงผลชื่อเเอป",
-  "pub_date": "2026-04-11T20:40:00Z",
+  "pub_date": "2026-04-11T21:10:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaXh5dDVaL0Y5RklNMHhWb3UwZmxuL2t6aWtMNFNwdkVXRkxFZmIraG1uSy9KR1FqTUhacVhUWDBzTWdhZk1SWjAwVU5WNzl3ZjlWa0o3QlZVbk83TmNHeXJ1RnRhSmdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTE0NTUwCWZpbGU6U0lSVS1NdWx0aS1MYXVuY2hlcl8yLjAuMV94NjRfZW4tVVMubXNpCjROa1RxRUZnSlNJUHU2OXE2TW9VVmxGRkVTalFpR0c3SkdSd2U0UStJTi80b3A1bHR4UitRR25KMHg0V2Y4MUdKVjZicFZ6QlhLN0tBZXh1SWJxZkRBPT0K",
-      "url": "https://github.com/Shirou-Dev/SIRU-Multi-Launcher/releases/download/v2.0.1/SIRU-Multi-Launcher_2.0.1_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaXh5dDVaL0Y5RkRycHh4VkkzbUxRUU8vN0VEbDVSR3c2MFMySTB1WHR0cXVMemhtcG1qVlNMYTNQSURBaW55VjI2TjdJb3hOQVBnNmVMeTdaQXd5Wk5BMjM5V2pWN2djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTE2NTQ4CWZpbGU6U0lSVS1NdWx0aS1MYXVuY2hlcl8yLjAuMV94NjQtc2V0dXAuZXhlCmVwWTVGWkp0WXl4WnNTNFNES0EzYWg0QTBQcTRIaXg1TkNSVTI4Zm5YNnpBOUNLYjQyU3lnOHBoVDltZGxPS0lUUEttMnFhdFZsa1VaWDlYb2JqekJ3PT0K",
+      "url": "https://github.com/Shirou-Dev/SIRU-Multi-Launcher/releases/download/v2.0.1/SIRU-Multi-Launcher_2.0.1_x64-setup.exe"
     }
   }
 }
