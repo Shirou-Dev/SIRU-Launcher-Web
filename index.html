@@ -170,7 +170,7 @@
                     const exeAsset = data.assets.find(asset => asset.name.endsWith('.exe'));
                     
                     if (exeAsset) {
-                        downloadBtn.href = msiAsset.browser_download_url;
+                        downloadBtn.href = exeAsset.browser_download_url;
                         btnText.innerText = "ดาวน์โหลดสำหรับ Windows";
                         versionText.innerText = `Latest Version: ${data.tag_name} • ขนาด: ${(exeAsset.size / 1024 / 1024).toFixed(1)} MB`;
                     } else {
