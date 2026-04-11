@@ -1,0 +1,9 @@
+[
+  {
+    "version": "2.0.0",
+    "forceV2": true, 
+    "v2DownloadUrl": "https://github.com/Shirou-Dev/SIRU-Multi-Launcher/releases/latest",
+    "highlights": ["ย้ายระบบครั้งใหญ่ไป V2 (Tauri + Rust) ประหยัดแรม กว่าเดิม!! ลึ้นกว่าเดิม!!"],
+    "message": "กรุณาดาวน์โหลด Launcher เวอร์ชันใหม่เพื่อใช้งานต่อ!!"
+  }
+]
