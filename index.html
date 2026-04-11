@@ -207,23 +207,23 @@
                         <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-gray-900 border-2 ${index === 0 ? 'border-cyan-500 bg-cyan-500 shadow-[0_0_15px_rgba(34,211,238,0.5)]' : 'border-gray-700'} group-hover:border-cyan-400 transition"></div>
                         
                         <div class="bg-gray-900/40 border ${index === 0 ? 'border-cyan-500/20 shadow-[0_0_30px_rgba(34,211,238,0.05)]' : 'border-gray-800/50'} p-6 rounded-2xl hover:border-gray-700 transition backdrop-blur-sm">
+                            
                             <div class="flex flex-wrap items-center justify-between gap-2 mb-4">
                                 <div class="flex items-center gap-3">
                                     <span class="text-2xl font-black text-white tracking-tight">v${item.version}</span>
-                                    
                                     ${index === 0 ? '<span class="px-2 py-0.5 rounded text-[9px] font-bold bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 uppercase tracking-widest animate-pulse">Latest</span>' : ''}
-                                    
                                     ${item.type === 'hotfix' ? '<span class="px-2 py-0.5 rounded text-[9px] font-bold bg-red-500/10 text-red-500 border border-red-500/20 uppercase tracking-widest animate-pulse">HOTFIX</span>' : ''}
                                     ${item.type === 'major' ? '<span class="px-2 py-0.5 rounded text-[9px] font-bold bg-purple-500/10 text-purple-400 border border-purple-500/20 uppercase tracking-widest">MAJOR</span>' : ''}
                                     ${item.type === 'patch' ? '<span class="px-2 py-0.5 rounded text-[9px] font-bold bg-green-500/10 text-green-400 border border-green-500/20 uppercase tracking-widest">PATCH</span>' : ''}
                                 </div>
+                                
                                 <div class="flex items-center gap-1.5 text-[11px] text-gray-500 font-mono tracking-tighter uppercase bg-gray-800/50 px-2 py-1.5 rounded leading-none">
                                     <svg class="w-3 h-3 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                                     <span>${item.date}${item.time ? ' &bull; ' + item.time : ''}</span>
                                 </div>
                             </div>
-
-                            </div> ${item.title ? `<h3 class="text-[15px] font-bold text-gray-200 mb-3">${item.title}</h3>` : ''}
+                            
+                            ${item.title ? `<h3 class="text-[15px] font-bold text-gray-200 mb-3">${item.title}</h3>` : ''}
                             
                             <ul class="space-y-2.5">
                                 ${item.highlights.map(text => `
@@ -233,8 +233,8 @@
                                     </li>
                                 `).join('')}
                             </ul>
-                        </div>
-                    </div>
+
+                        </div> </div>
                 `).join('');
             } catch (error) {
                 console.error('Error fetching changelog:', error);
