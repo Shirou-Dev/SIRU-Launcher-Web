@@ -211,6 +211,7 @@
                                 <div class="flex items-center gap-3">
                                     <span class="text-2xl font-black text-white tracking-tight">v${item.version}</span>
                                     ${index === 0 ? '<span class="px-2 py-0.5 rounded text-[9px] font-bold bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 uppercase tracking-widest animate-pulse">Latest</span>' : ''}
+                                    ${item.type === 'hotfix' ? '<span class="px-2 py-0.5 rounded text-[9px] font-bold bg-red-500/10 text-red-500 border border-red-500/20 uppercase tracking-widest animate-pulse">HOTFIX</span>' : ''}
                                 </div>
                                 <span class="text-[11px] text-gray-500 font-mono tracking-tighter uppercase bg-gray-800/50 px-2 py-1 rounded leading-none">${item.date}</span>
                             </div>
