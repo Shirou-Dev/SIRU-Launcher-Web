@@ -1,5 +1,15 @@
 [
-   {
+  {
+    "version": "2.0.3",
+    "date": "2026-04-11",
+    "time": "00:15",
+    "title": "Fixing",
+    "highlights": [
+      "[เเก้ไข] ระบบรีเฟรช ให้เสถียร์ขึ้น"
+    ],
+    "type": "hotfix"
+  },
+  {
     "version": "2.0.2",
     "date": "2026-04-11",
     "time": "23:17",
@@ -56,7 +66,9 @@
   {
     "version": "1.0.8",
     "date": "2026-04-10",
-    "highlights": ["ปรับปรุงความเสถียรของระบบ Auto-Update"],
+    "highlights": [
+      "ปรับปรุงความเสถียรของระบบ Auto-Update"
+    ],
     "type": "patch"
   }
 ]
