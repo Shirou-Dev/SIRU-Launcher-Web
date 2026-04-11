@@ -167,7 +167,7 @@
 
                 if (data.assets && data.assets.length > 0) {
                     // หาไฟล์ .exe เพื่อให้กดโหลดได้ทันที
-                    const exeAsset = data.assets.find(asset => asset.name.endsWith('.exe'));
+                    const msiAsset = data.assets.find(asset => asset.name.endsWith('.msi'));
                     
                     if (exeAsset) {
                         downloadBtn.href = exeAsset.browser_download_url;
