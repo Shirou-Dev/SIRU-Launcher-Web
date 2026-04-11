@@ -1,11 +1,11 @@
 {
-  "version": "2.0.2",
-  "notes": "[เเก้ไข] ระบบ GameBuild/PureMode",
-  "pub_date": "2026-04-11T23:17:00Z",
+  "version": "2.0.3",
+  "notes": "[เเก้ไข] ระบบรีเฟรช ให้เสถียร์ขึ้น",
+  "pub_date": "2026-04-11T00:15:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaXh5dDVaL0Y5RkhZa1JlY3d3a1dmakd4azlPeFBYQTRGTmRGRzh4bWxLMkhOVDhta0VZMzgxYnhQZ3dsTnpHVFN0cTRRYXhDaUdQMEhVUjVpcWZDYXFVYjRiZDVJcXdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTI0MTg3CWZpbGU6U0lSVS1NdWx0aS1MYXVuY2hlcl8yLjAuMl94NjQtc2V0dXAuZXhlCm1IRmxKNTBlR09BUkc2Szl3QkVtQ2ZnQjdGT1cvc2s0eHhHS1JvaG04ZWlTdUY4UVJRR3ZHYkN6QURCMjRPdmRRTHlOOTdEd2VQb3ZqZzlTOW0rTkR3PT0K",
-      "url": "https://github.com/Shirou-Dev/SIRU-Multi-Launcher/releases/download/v2.0.2/SIRU-Multi-Launcher_2.0.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaXh5dDVaL0Y5RkxuVTB5aVVmZlphYmswRVBWcnZvbDlLNjJ0SFpYSDZ5TGdxTEx0aGFzTW9YcUl2cHoxc2xkT1BwNXN2Q3BaOXpYL28vMmFxbVVrL3VDaWU4anZwakE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1OTI3NjczCWZpbGU6U0lSVS1NdWx0aS1MYXVuY2hlcl8yLjAuM194NjQtc2V0dXAuZXhlCkpZeUdSMjUvZDhJb3RsTGVTVldRb01QbkQ3dFR4T0VPMlNDWFo4NERpMFNPeitkZzZ4UEpBek9rSm1GUTFrUzZac0tRSy8vUDh3bEFpbnZDblArYURBPT0K",
+      "url": "https://github.com/Shirou-Dev/SIRU-Multi-Launcher/releases/download/v2.0.3/SIRU-Multi-Launcher_2.0.3_x64-setup.exe"
     }
   }
 }
