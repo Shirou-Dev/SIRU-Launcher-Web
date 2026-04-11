@@ -167,12 +167,12 @@
 
                 if (data.assets && data.assets.length > 0) {
                     // หาไฟล์ .exe เพื่อให้กดโหลดได้ทันที
-                    const msiAsset = data.assets.find(asset => asset.name.endsWith('.msi'));
+                    const exeAsset = data.assets.find(asset => asset.name.endsWith('.exe'));
                     
-                    if (msiAsset) {
+                    if (exeAsset) {
                         downloadBtn.href = msiAsset.browser_download_url;
                         btnText.innerText = "ดาวน์โหลดสำหรับ Windows";
-                        versionText.innerText = `Latest Version: ${data.tag_name} • ขนาด: ${(msiAsset.size / 1024 / 1024).toFixed(1)} MB`;
+                        versionText.innerText = `Latest Version: ${data.tag_name} • ขนาด: ${(exeAsset.size / 1024 / 1024).toFixed(1)} MB`;
                     } else {
                         // ถ้าหา .exe ไม่เจอ ให้เด้งไปหน้า GitHub Release แทน
                         downloadBtn.href = data.html_url;
