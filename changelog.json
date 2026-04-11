@@ -6,7 +6,7 @@
     "highlights": [
       "[เเก้ไข] ระบบ GameBuild/PureMode ให้กลับมาใข้ได้ตามปกติ"
     ],
-    "type": "major"
+    "type": "hotfix"
   },
   {
     "version": "2.0.1",
@@ -15,7 +15,7 @@
     "highlights": [
       "[เเก้ไข] ระบบเเสดงผลชื่อเเอป ให้ถูกต้อง"
     ],
-    "type": "patch"
+    "type": "hotfix"
   },
   {
     "version": "2.0.0",
