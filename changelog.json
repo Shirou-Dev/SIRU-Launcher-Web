@@ -2,12 +2,12 @@
   {
     "version": "2.0.4-test",
     "date": "2026-04-12",
-    "time": "14:01",
+    "time": "14:02",
     "title": "ทดสอบ..",
     "highlights": [
       "ทดสอบระบบเเจ้งเตือนในดิสคอร์ด"
     ],
-    "type": "patch"
+    "type": "major"
   },
   {
     "version": "2.0.3",
