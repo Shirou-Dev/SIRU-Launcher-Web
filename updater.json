@@ -1,11 +1,11 @@
 {
-  "version": "2.0.5",
-  "notes": "[ระบบใหม่] ระบบ CL2 เปิด 2 ตัวเกมได้พร้อมกัน",
-  "pub_date": "2026-05-16T22:54:00Z",
+  "version": "2.0.6",
+  "notes": "[เเก้ไข] ระบบ CL2 โลจิกใหม่",
+  "pub_date": "2026-05-16T23:31:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaXh5dDVaL0Y5Rk9CWVRHdldib3BRUHNqRVArbGNKUTJTRnpOa3YvVHRlU29QVFFkRGRGYU9BbTIrU0x5TGJHS1ZnT3ZNQWF4YjB6ZWVyK1N1K20xWGRLNVREdFB1SlFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc4OTQ2NzUxCWZpbGU6U0lSVS1NdWx0aS1MYXVuY2hlcl8yLjAuNV94NjQtc2V0dXAuZXhlCm5FSk8zNDdkSFhOWmJwSGlpM1RFOFQxZzlpSU9xeGZvRVdBSERqQmFrWUJKZzk4dm1kbEIvd1U0aTUrNEFVNDFEaGV6OWVCY2hTWTJSSFRTSUhJRUJ3PT0K",
-      "url": "https://github.com/Shirou-Dev/SIRU-Multi-Launcher/releases/download/v2.0.5/SIRU-Multi-Launcher_2.0.5_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSEJ3U201Q05UQVNzYjV4ZENMVjIrN200ZGRJVms2RngxYVRrL3dJYVlkeGE0T21IbzZqbUoxbkRQNHNZZTJlRThrY3NwQW5rWS9ibEtQMU5qdUtTN25sQ3NReDhySkFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc4OTQ5MDM2CWZpbGU6U0lSVS1NdWx0aS1MYXVuY2hlcl8yLjAuNl94NjQtc2V0dXAuZXhlCi83c25FaEc3dFpHVXU5Wi81bDR4YzVuQ09CVkVJYmlxVG05TkR1alNwbG5IOENyYnptSml2cGxOUklITjM5ZjlCUm0xaGxUYlRUSFRJamR0NWo1REJnPT0K",
+      "url": "https://github.com/Shirou-Dev/SIRU-Multi-Launcher/releases/download/v2.0.6/SIRU-Multi-Launcher_2.0.6_x64-setup.exe"
     }
   }
 }
