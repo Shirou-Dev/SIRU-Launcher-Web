@@ -1,11 +1,11 @@
 {
   "version": "2.0.4",
   "notes": "[ระบบใหม่] ระบบ CL2 เปิด 2 ตัวเกมได้พร้อมกัน",
-  "pub_date": "2026-05-16T22:32:00Z",
+  "pub_date": "2026-05-16T22:33:00Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSEJ3U201Q05UQWJRc1M4bmhKaXJ2aEJrV0RVbEp1THRHREhtRVUxRm83Q0RqSzZKRU9DYk9ZSzluc3B0NmdEcVR5NytnYlFiM2JiK1ROcVBnclU4VlYwT1B2dTlDY2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc4OTQ1NDQ0CWZpbGU6U0lSVS1NdWx0aS1MYXVuY2hlcl8yLjAuNF94NjQtc2V0dXAuZXhlClhsWHFYMStJWEZzWUtCakNsMUFGVkJURGprK0FjVXZZV0tRQ2N1V0Z2ZnF1YWdTUTJ6M1N0UFdrY2dDRXFKOVBJcE1aTkRwTVNicG12ZDhTdDVxbkRRPT0K",
-      "url": "https://github.com/Shirou-Dev/SIRU-Multi-Launcher/releases/download/v2.0.3/SIRU-Multi-Launcher_2.0.4_x64-setup.exe"
+      "url": "https://github.com/Shirou-Dev/SIRU-Multi-Launcher/releases/download/v2.0.4/SIRU-Multi-Launcher_2.0.4_x64-setup.exe"
     }
   }
 }
