@@ -1,11 +1,11 @@
 {
-  "version": "2.0.6",
-  "notes": "[เเก้ไข] ระบบ CL2 โลจิกใหม่",
-  "pub_date": "2026-05-16T23:35:00Z",
+  "version": "2.0.7",
+  "notes": "[อัพเดท] UX/UI หลากหลายระบบใหม่",
+  "pub_date": "2026-06-24T23:52:07Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaXh5dDVaL0Y5RkdqTWhOTWVYandtRS9IMXJ4ekZ2eTJ0YkI3NDRsbHlTc3c5VUVhdVdrcXF2ZnpSei9EbXZMcTFuUVh1MWdicmdMa2M4dG1EMGNtQUxCdXh2NGZnZGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc4OTQ5MzIxCWZpbGU6U0lSVS1NdWx0aS1MYXVuY2hlcl8yLjAuNl94NjQtc2V0dXAuZXhlCjl6RFF4dkZCQkwzUG1DNlk4TVhoWXBINzhQSDlhQXpSYUNZTXUvVmsrbzhUTEV4VGdrUzdNOURKTnpqT0h6WkVxWDAxb3ErdmpSNzk1cXNENGZQbENBPT0K",
-      "url": "https://github.com/Shirou-Dev/SIRU-Multi-Launcher/releases/download/v2.0.6/SIRU-Multi-Launcher_2.0.6_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSEJ3U201Q05UQVoxaFRraUIybkhyaDFJNHp0TVZYVCtxaWtCaHF4UkFVbjE4bTdPbE1tSXB4bjVxblE1V2dER1E5ZWdGdEx2UmxsanlRcENnK2lLcGJabGo0TWZPSGc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzE5NDg5CWZpbGU6U0lSVS1NdWx0aS1MYXVuY2hlcl8yLjAuN194NjQtc2V0dXAuZXhlClc5L3FvenovNFNCMHA1ZmRsb29oTUhIbXdsbktVbStCNElxYTdEQVhFNFNiS3h3UXVvNjFVQWxNc0VhaCtxREk2MVBXNmppVE9KZG1WaXYzbEJhT0RBPT0K",
+      "url": "https://github.com/Shirou-Dev/SIRU-Multi-Launcher/releases/download/v2.0.7/SIRU-Multi-Launcher_2.0.7_x64-setup.exe"
     }
   }
 }
