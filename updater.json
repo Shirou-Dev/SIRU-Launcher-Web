@@ -1,10 +1,10 @@
 {
   "version": "2.0.7",
   "notes": "[อัพเดท] UX/UI หลากหลายระบบใหม่",
-  "pub_date": "2026-06-24T23:53:12Z",
+  "pub_date": "2026-06-25T00:41:47Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaXh5dDVaL0Y5RkdqTWhOTWVYandtRS9IMXJ4ekZ2eTJ0YkI3NDRsbHlTc3c5VUVhdVdrcXF2ZnpSei9EbXZMcTFuUVh1MWdicmdMa2M4dG1EMGNtQUxCdXh2NGZnZGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc4OTQ5MzIxCWZpbGU6U0lSVS1NdWx0aS1MYXVuY2hlcl8yLjAuNl94NjQtc2V0dXAuZXhlCjl6RFF4dkZCQkwzUG1DNlk4TVhoWXBINzhQSDlhQXpSYUNZTXUvVmsrbzhUTEV4VGdrUzdNOURKTnpqT0h6WkVxWDAxb3ErdmpSNzk1cXNENGZQbENBPT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSEJ3U201Q05UQVN5aDJSMkVjNGZ1cnRqWWJvQzdnYmY3cFE0c0UrS2d1Q0Q0Y2NwWmZoS0FXRDRUZXh0SDhtR2JIZWpIMmN5NjlkUHFnN2lRWjBqdXMrUjhKZVlwelFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzIxMDg5CWZpbGU6U0lSVS1NdWx0aS1MYXVuY2hlcl8yLjAuN194NjQtc2V0dXAuZXhlCllBNTUzY2ZFY0dJNnhRa3ZHUWRvckZreFlNR0QzdThMZS9NMGMwL2lQckZBY0g3VDdHZDFtNWFpWlBYZDd6aFZaTWc3QkhSK0tZci8xTTYvQ01Na0J3PT0K",
       "url": "https://github.com/Shirou-Dev/SIRU-Multi-Launcher/releases/download/v2.0.7/SIRU-Multi-Launcher_2.0.7_x64-setup.exe"
     }
   }
