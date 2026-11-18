@@ -161,22 +161,23 @@
             const downloadBtn = document.getElementById('downloadBtn');
         
             try {
-                // ใช้ ?t=${Date.now()} เพื่อบังคับเคลียร์แคช jsDelivr สด ๆ ทุกครั้งที่โหลดหน้าเว็บ
+                // ใช้ ?t=${Date.now()} เพื่อป้องกันปัญหาแคชของ jsDelivr
                 const response = await fetch(`https://cdn.jsdelivr.net/gh/Shirou-Dev/SIRU-Launcher-Web@main/latest.json?t=${Date.now()}`);
                 const data = await response.json();
         
-                // ดึงข้อมูลตามโครงสร้าง Tauri JSON ของคุณ
+                // ดึงลิงก์จากโครงสร้าง Tauri JSON
                 const windowsPlatform = data.platforms?.["windows-x86_64"];
         
                 if (windowsPlatform && windowsPlatform.url) {
                     downloadBtn.href = windowsPlatform.url;
                     btnText.innerText = "ดาวน์โหลดสำหรับ Windows";
+                    
+                    // เนื่องจากใน JSON แบบ Tauri ไม่มีบอกขนาดไฟล์ตรงๆ เราจึงดึงเฉพาะเวอร์ชันมาแสดง
                     versionText.innerText = `Latest Version: v${data.version}`;
                 } else {
-                    // สำรองกรณีหาไม่เจอ ให้วิ่งไปหน้า Releases ปกติ
                     downloadBtn.href = "https://github.com/Shirou-Dev/SIRU-Multi-Launcher/releases/latest";
                     btnText.innerText = "ดาวน์โหลดบน GitHub";
-                    versionText.innerText = `Latest Version: v${data.version || 'Latest'}`;
+                    versionText.innerText = "Latest Version: Latest";
                 }
             } catch (error) {
                 console.error('Error fetching release:', error);
