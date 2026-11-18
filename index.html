@@ -162,7 +162,7 @@
         
             try {
                 // ใช้ jsDelivr CDN แทน raw.githubusercontent.com เพื่อความเร็ว + cache
-                const response = await fetch('https://cdn.jsdelivr.net/gh/Shirou-Dev/SIRU-Launcher-Web@main/latest.json');
+                const response = await fetch('https://cdn.jsdelivr.net/gh/Shirou-Dev/SIRU-Launcher-Web@main/latest.json?v=1.0.1');
                 const data = await response.json();
         
                 const exeAsset = data.assets?.find(asset => asset.name.endsWith('.exe'));
