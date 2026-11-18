@@ -161,20 +161,22 @@
             const downloadBtn = document.getElementById('downloadBtn');
         
             try {
-                // ใช้ jsDelivr CDN แทน raw.githubusercontent.com เพื่อความเร็ว + cache
-                const response = await fetch('https://cdn.jsdelivr.net/gh/Shirou-Dev/SIRU-Launcher-Web@main/latest.json?v=1.0.1');
+                // ใช้ ?t=${Date.now()} เพื่อบังคับเคลียร์แคช jsDelivr สด ๆ ทุกครั้งที่โหลดหน้าเว็บ
+                const response = await fetch(`https://cdn.jsdelivr.net/gh/Shirou-Dev/SIRU-Launcher-Web@main/latest.json?t=${Date.now()}`);
                 const data = await response.json();
         
-                const exeAsset = data.assets?.find(asset => asset.name.endsWith('.exe'));
+                // ดึงข้อมูลตามโครงสร้าง Tauri JSON ของคุณ
+                const windowsPlatform = data.platforms?.["windows-x86_64"];
         
-                if (exeAsset) {
-                    downloadBtn.href = exeAsset.browser_download_url;
+                if (windowsPlatform && windowsPlatform.url) {
+                    downloadBtn.href = windowsPlatform.url;
                     btnText.innerText = "ดาวน์โหลดสำหรับ Windows";
-                    versionText.innerText = `Latest Version: ${data.tag_name} • ขนาด: ${(exeAsset.size / 1024 / 1024).toFixed(1)} MB`;
+                    versionText.innerText = `Latest Version: v${data.version}`;
                 } else {
-                    downloadBtn.href = data.html_url;
+                    // สำรองกรณีหาไม่เจอ ให้วิ่งไปหน้า Releases ปกติ
+                    downloadBtn.href = "https://github.com/Shirou-Dev/SIRU-Multi-Launcher/releases/latest";
                     btnText.innerText = "ดาวน์โหลดบน GitHub";
-                    versionText.innerText = `Latest Version: ${data.tag_name}`;
+                    versionText.innerText = `Latest Version: v${data.version || 'Latest'}`;
                 }
             } catch (error) {
                 console.error('Error fetching release:', error);
